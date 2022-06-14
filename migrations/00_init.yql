@@ -1,0 +1,47 @@
+CREATE TABLE users (
+    user_id Uint64,
+    role Uint8,
+
+    state Utf8,
+    context Utf8, 
+
+    created_at Datetime,
+    last_action Datetime,
+    version Uint32,
+
+    PRIMARY KEY (user_id)
+);
+
+CREATE TABLE telegram_profiles (
+    user_id Uint64,
+    
+    username Utf8,
+    first_name Utf8,s
+    last_name Utf8,
+    language_code Utf8,
+
+    PRIMARY KEY (user_id)
+);
+
+CREATE TABLE profiles (
+    user_id Uint64,
+    
+    name Utf8,
+    phone Utf8,
+    email Utf8,
+    source Utf8,
+
+    PRIMARY KEY (user_id)
+);
+
+CREATE TABLE subscriptions (
+    user_id Uint64,
+    topic Utf8,
+
+    active Bool,
+
+    created_at Datetime,
+    last_action Datetime,
+
+    PRIMARY KEY (user_id, topic)
+);
