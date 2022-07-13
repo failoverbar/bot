@@ -1,4 +1,4 @@
-module github.com/Failover-bar/bot
+module github.com/failoverbar/bot
 
 		go 1.18
 

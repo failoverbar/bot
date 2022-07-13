@@ -2,7 +2,7 @@ package model
 
 import (
 	"context"
-	"github.com/Failover-bar/bot/wrap"
+	"github.com/failoverbar/bot/wrap"
 	"github.com/ydb-platform/ydb-go-sdk/v3"
 	"github.com/ydb-platform/ydb-go-sdk/v3/table"
 	"github.com/ydb-platform/ydb-go-sdk/v3/table/options"

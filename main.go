@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"errors"
-	"github.com/Failover-bar/bot/model"
-	"github.com/Failover-bar/bot/wrap"
+	"github.com/failoverbar/bot/model"
+	"github.com/failoverbar/bot/wrap"
 	ydbEnviron "github.com/ydb-platform/ydb-go-sdk-auth-environ"
 	"log"
 	"os"

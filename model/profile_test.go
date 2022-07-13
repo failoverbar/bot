@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"github.com/AlekSi/pointer"
-	"github.com/Failover-bar/bot/wrap"
+	"github.com/failoverbar/bot/wrap"
 	"testing"
 )
 

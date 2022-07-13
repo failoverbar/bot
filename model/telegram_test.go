@@ -3,7 +3,7 @@ package model
 import (
 	"context"
 	"errors"
-	"github.com/Failover-bar/bot/wrap"
+	"github.com/failoverbar/bot/wrap"
 	"testing"
 )
 
